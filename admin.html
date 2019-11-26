@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouCube - Adding to the Blog for Cube Puzzlers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="ajax.js"></script>
+    <script src="blog_object.js"></script>
+    <script src="admin.js"></script>
+</head>
+<body onload="dateAdd()">
+<div class="container">
+<h1 align="center">YouCube - Adding to the Blog for Cube Puzzlers</h1>
+<br>
+<fieldset class="border border-dark p-4">
+<form>
+    <div class='row'>
+    <label class="col-5 col-sm-5"><strong>Date:</strong></label>
+    <input id="date" class="col-5 col-sm-5" type="text" required><br>
+    <div class='w-100'></div>
+    <label class="col-5 col-sm-5"><strong>Body:</strong></label>
+    <textarea id="text" class="col-5 col-sm-5" required></textarea><br>
+    <div class='w-100'></div>
+    <label class="col-5 col-sm-5"><strong>Image (optional):</strong></label>
+    <input id="img" class="col-5 col-sm-5" type="text"><br>
+    <div class='w-100'></div>
+    </div>
+    <br>
+    <div>
+    <label class="col-5 col-sm-5"></label>
+    <input class="btn btn-info" type="submit" id="button" onclick="addBolgEntry()" value="Add the new blog entry">
+    </div>
+    <div class='w-100'></div>
+    <div>
+        <label class="col-5 col-sm-5"></label>
+        <label class="col-5 col-sm-5" id="status"></label>
+    </div>
+</form>
+</fieldset>
+</div>
+</body>
+</html>

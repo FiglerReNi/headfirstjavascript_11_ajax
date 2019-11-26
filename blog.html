@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>YouCube - The Blog for Cube Puzzlers</title>
+<!--    Fontos a js-ek sorrendje!!!-->
+    <script type=text/javascript src="ajax.js"></script>
+    <script type=text/javascript src="blog_object.js"></script>
+    <script type=text/javascript src="blog_4.js"></script>
+</head>
+<body onload="loadBlog()">
+<h1>YouCube - The Blog for Cube Puzzlers</h1>
+<img src="cube.png" alt="cube" height="118" width="118"/><br>
+<br>
+<button id="button1" onclick="search()" disabled>Search the Blog</button>
+<input id="search" type="text"/><br>
+<br>
+<div id="blog"></div>
+<!--ha kap értéket a showText() csak annyi sort jelenít meg, ha nem kap akkor az összeset.-->
+<button id="button2" onclick="showText()" disabled>Show all Blog Entries</button>
+<button id="button3" onclick="random()" disabled>View a Random Blog Entry</button>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<blog>
+    <title>YouCube - The Blog for Cube Puzzlers</title>
+    <author>Puzzler Ruby</author>
+    <entries>
+        <entry>
+            <body>Got the new cube I ordered. It's a real pearl cube.</body>
+            <date>08/14/2008</date>
+            <img/>
+        </entry>
+        <entry>
+            <body>Solved the new cube but of course, now I'm <strong>bored</strong> and shopping for a new one.</body>
+            <date>08/19/2008</date>
+            <img/>
+        </entry>
+        <entry>
+            <body>Managed to get a headache toiling over the new cube. Gotta nap.</body>
+            <date>08/16/2008</date>
+            <img>cube777.png</img>
+        </entry>
+        <entry>
+            <body>Found a 7x7x7 cube for sale online. Yikes! That one could be a beast.</body>
+            <date>08/21/2008</date>
+            <img/>
+        </entry>
+    <entry>
+        <body>New Blog Adding...</body>
+        <date>04/08/2008</date>
+        <img/>
+    </entry>
+        <entry>
+            <body>New Cube Puzzlers.. </body>
+            <date>04/08/2009</date>
+            <img>cubeapart.png</img>
+        </entry>
+    </entries>
+</blog>
